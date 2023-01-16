@@ -7,6 +7,16 @@ rates. If the model is updated in short time steps of duration delta_t, the prob
 is the transition rate times delta_t.
 
 
+
+### TODOS/Questions: (as of Jan 16th)
+- 2 plots of the variances going down
+- variance should be calculated at the stationary phase (doesn't make sense in the beginning)
+- do the same for sodium NA
+- Change the structure of the code so that at each time step the whole population is being considered
+- Clean up the code, add documentation and intro
+
+
+---------------------------------------------
 ### TODOS/Questions: (as of Jan 9th)
 - What are the values for conductance and Reversal potential? K values?
 - 0) Simulate a two state system
