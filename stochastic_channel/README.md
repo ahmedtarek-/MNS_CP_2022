@@ -6,6 +6,19 @@ and allowing stochastic changes of state to occur at appropriate transition
 rates. If the model is updated in short time steps of duration delta_t, the probability that the channel makes a given transition during an update interval
 is the transition rate times delta_t.
 
+### TODOS/Questions: (as of Feb 9th)
+
+- Report
+  - (Intro, method and results, conclusion)
+  - 5 pages (with plots)
+  - Talk about why stochastic (mention cases where HH model won't capture the bahaviour)
+  - Talk about using the other NA model first and how it didn't work
+  - Plots
+    1. Voltage clamp (mean over time)
+    2. Mean of on/off (against voltage) [compare to n_inf(V)]
+    3. Variance graph
+    4. Current injection simulation against HH model
+    5. ISI
 
 ### TODOS/Questions: (as of Feb 6th)
 - Get the mean working better (increase the number of channels)
